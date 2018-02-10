@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "name": "uQrl",
+  "version": "1.0",
+
+  "description": "Convert all tabs' URLs in current window to QR code",
+  "icons": {
+    "48": "icons/logo-48.png",
+    "96": "icons/logo-96.png"
+  },
+
+  "permissions": [
+    "<all_urls>",
+    "tabs"
+  ],
+
+  "browser_action": {
+    "default_icon": "icons/logo-32.png",
+    "default_title": "uQrl",
+    "default_popup": "uQrl.html"
+  }
+}
